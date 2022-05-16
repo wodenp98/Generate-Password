@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+            <main class="main-container">
+      <section class="card-container">
+
+        <h2 class="card-heading">Generate a
+          <span class="card-heading-accent">random password</span>
+        </h2>
+        <h3 class="card-heading-supporting-text">
+          Never use an insecure password again.
+        </h3>
+
+        <hr class="line top-line"/>
+
+        <div class="button-group">
+          <button onclick="generatePassword()" class="generate-pwrd-button">
+            <i class="fa-solid fa-bolt button-group-icon"></i> Generate passwords
+          </button>
+        </div>
+
+        <hr class="line"/>
+
+        <div class="password-boxes">
+          <button id="password1" class="box">
+            <i class="fa-solid fa-ellipsis three-dots-icon"></i>  
+          </button>
+          <button id="password2" class="box">
+            <i class="fa-solid fa-ellipsis three-dots-icon"></i>
+          </button>
+          <button id="password3" class="box">
+            <i class="fa-solid fa-ellipsis three-dots-icon"></i>
+          </button>
+          <button id="password4" class="box">
+            <i class="fa-solid fa-ellipsis three-dots-icon"></i>
+          </button>
+        </div>
+
+      </section>
+    </main>
+        <script src="index.js"></script>
+    </body>
+</html>
